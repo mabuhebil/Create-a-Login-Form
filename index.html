@@ -5,10 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63eb13ac5c.js" crossorigin="anonymous"></script>
     <title>Create a Login Form</title>
 </head>
 
 <body>
+
+    <div class="container">
+        <div class="title">Login Form</div>
+        <div class="social_container">
+            <a href="#" class="face"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i> Twitter</a>
+        </div>
+        <form action="">
+            <div class="inputs_box">
+                <div class="textbox">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" required>
+                </div>
+                <div class="passwordBox">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" required>
+                </div>
+            </div>
+            <div class="text_box">
+                <div class="remember_box">
+                    <input type="checkbox" id="check">
+                    <label for="check"> Remember</label>
+                </div>
+                <span> Forget Password</span>
+            </div>
+            <input type="submit" value="Login">
+            <div class="text_box_2">
+                <span class="not">Not ameber?</span>
+                <span class="sign">Sign up now</span>
+            </div>
+        </form>
+    </div>
 
 </body>
 
