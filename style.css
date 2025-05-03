@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(226, 43, 186, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 5px;
+}
+
+.container .title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container .social_container .face,
+.container .social_container .twitter {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 18px;
+    border-radius: 3px;
+}
+
+.container .social_container {
+    display: flex;
+    gap: 7px;
+}
+
+.container .social_container .face {
+    background-color: rgb(83, 83, 204);
+    transition: all 0.3s ease;
+
+}
+
+.container .social_container .face:hover {
+    background-color: rgb(8, 8, 224);
+}
+
+.container .social_container .face .fa-facebook-f {
+    padding-right: 5px;
+}
+
+.container .social_container .twitter {
+    background-color: rgb(93, 93, 155);
+    padding-right: 23px;
+    transition: all 0.3s ease;
+}
+
+.container .social_container .twitter:hover {
+    background-color: rgb(71, 71, 226);
+}
+
+.container .social_container .twitter .fa-twitter {
+    padding-right: 8px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
